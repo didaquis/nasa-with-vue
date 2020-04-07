@@ -16,6 +16,7 @@ export default {
 		return {
 			numberOfImages: 0,
 			query: '',
+			results: [],
 		};
 	},
 	methods: {
