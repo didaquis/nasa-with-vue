@@ -1,6 +1,6 @@
 # nasa-with-vue
 
-A basic app for learning Vue baby steps.  
+A basic app for learning the baby steps of Vue.  
 Repo of reference: https://github.com/kristianmzmz/nasa-api-with-vue-and-tdd
 
 ## Baby steps of Vue
