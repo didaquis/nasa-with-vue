@@ -18,6 +18,7 @@ Add other dependencies: `npm install axios`
 * [Chomre extension for debugging Vue](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
 * [Vue cli docs](https://cli.vuejs.org/)
 * [Vue cli configuration reference](https://cli.vuejs.org/config/)
+* [Vue test utils documentation](https://vue-test-utils.vuejs.org/)
 * [Vue docs](https://vuejs.org/)
 * [Jest](https://jestjs.io/)
 

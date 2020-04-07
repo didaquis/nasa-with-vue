@@ -1,28 +1,43 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div id="app">
+		<Logo />
+		<MainTitle text="Search images from NASA" />
+		<Search />
+	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Logo from './components/Logo.vue';
+import MainTitle from './components/MainTitle.vue';
+import Search from './components/Search.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	name: 'App',
+	components: {
+		MainTitle,
+		Search,
+		Logo
+	}
+};
 </script>
 
 <style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #e5e5e5;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 </style>
