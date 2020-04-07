@@ -6,7 +6,8 @@ Install vue cli: `npm install -g @vue/cli`
 
 Create new proyect: `vue create nasa-with-vue`
 
-Add dependencies: `vue add unit-jest`
+Add Vue plugins: `vue add unit-jest`
+Add dependencies: `npm install axios`
 
 test: `npm run test:unit`
 
