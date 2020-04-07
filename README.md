@@ -8,6 +8,8 @@ Create new proyect: `vue create nasa-with-vue`
 
 Add dependencies: `vue add unit-jest`
 
+test: `npm run test:unit`
+
 
 ## Project setup
 ```
