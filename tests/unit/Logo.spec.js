@@ -13,7 +13,7 @@ describe('Logo component', () => {
 		});
 
 		await component.vm.$nextTick;
-
+		expect(component.is('img')).toBe(true);
 		expect(component.attributes('src')).toBe(fakeURL);
 		expect(component.attributes('alt')).toBe(fakeAlt);
 	});

@@ -4,9 +4,11 @@ import MainTitle from '@/components/MainTitle.vue';
 describe('MainTitle.vue', () => {
 	test('renders props.text when passed', () => {
 		const text = 'new message';
-		const wrapper = shallowMount(MainTitle, {
+		const component = shallowMount(MainTitle, {
 			propsData: { text }
 		});
-		expect(wrapper.text()).toMatch(text);
+
+		expect(component.is('h1')).toBe(true);
+		expect(component.text()).toMatch(text);
 	});
 });
