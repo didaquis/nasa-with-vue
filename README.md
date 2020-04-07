@@ -1,5 +1,8 @@
 # nasa-with-vue
 
+A basic app for learning Vue baby steps.  
+Repo of reference: https://github.com/kristianmzmz/nasa-api-with-vue-and-tdd
+
 ## Baby steps!
 
 Install vue cli: `npm install -g @vue/cli`
