@@ -18,7 +18,7 @@ export default {
 <style scoped>
 .gallery {
 	width: 940px;
-	margin: 0 auto;
+	margin: 16px auto;
 }
 .gallery > div {
 	position: relative;
@@ -36,7 +36,7 @@ export default {
 	z-index: 1;
 }
 .gallery > div:hover > img {
-	transform: scale(1.8, 1.8);
+	transform: scale(1.5, 1.5);
 	transition: 0.3s transform;
 }
 .cf:before,
