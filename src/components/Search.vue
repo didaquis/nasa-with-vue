@@ -4,7 +4,7 @@
 			<input v-model="query" autofocus required />
 		</form>
 		<ResultsCounter :counter="numberOfImages" />
-		<Gallery :results="results" />
+		<Gallery :images="results" />
 	</section>
 </template>
 
